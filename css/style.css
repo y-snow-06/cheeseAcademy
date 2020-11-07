@@ -1,0 +1,467 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+
+}
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+    font-size: 16px;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+/*ーーーーーーーーーーー*/
+
+.box{
+	position: relative;
+}
+.box img{
+	max-width: 100%;
+	height: auto;
+}
+.box h1  {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+	padding:0;
+	text-align: center;
+}
+.box p  {
+    position: absolute;
+    color: white;
+    font-size: 20	px;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+	padding:0;
+	text-align: center;
+}
+
+/*nav以降---------------------*/
+.start  {
+color: #333333;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+display: block;
+border-bottom: solid 1px;
+border-bottom-color: #efefef;
+margin-bottom: 120px;
+}
+
+
+.nav-inner{
+  color: #333333;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  width: 1140px;
+  margin: 0 auto;
+}
+.btn-trigger{
+display: none;
+}
+
+.nav-item {
+color: black;
+list-style: none;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+margin-left: 54px;
+}
+.navigation{
+display: flex;
+list-style: none;
+text-transform: uppercase;
+}
+
+/*about以降---------------------*/
+.midashi{
+	font-size: 24px;
+	margin-top: 120px;
+	margin-bottom: 24px;
+	color: #ffd61a;
+	text-align: center;
+}
+.midashi2{
+	margin-bottom: 64px;
+	text-align: center;
+}
+.midashi3{
+	margin-bottom: 40px;
+	text-align: center;
+}
+.midashi4{
+	margin-bottom: 80px;
+	text-align: center;
+}
+/*ループ画像以降---------------------*/
+.section{
+	margin-bottom: 64px;
+	text-align: center;
+}
+.section_loop{
+	width: 100%;
+	height: 100%;
+}
+.midashi-5 {
+	font-size: 24px;
+	color: black;
+	text-align: center;
+}
+.midahi6{
+	margin-bottom: 64px;
+	text-align: center;
+}	
+/*コース紹介１
+---------------------*/
+.content{
+	display: flex;
+}
+.content_box{
+    width: 50%;
+}
+.content_text_box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+}
+.content_box_image{
+	width: 100%;
+	height: 100%;
+}
+.content_text_box2{
+	width: 100%;
+	
+}
+.content_text_box2_2{
+	padding-bottom: 40px;
+	margin-left: 48px;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+   
+}
+.content_text_box2_3{
+	margin-left: 48px;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.content_text_box2_2-b{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 40px;
+	margin-right: 48px;
+	font-size: 24px;
+
+}
+.content_text_box2_3-b{
+	margin-right: 48px;
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*news
+---------------------*/
+.topic{
+	text-align: center;
+	color: #ffd61a;
+	font-size: 24px;
+	margin-top: 64px;
+	margin-bottom: 30px;
+
+}  
+.topic_2{
+	text-align: center;
+	margin-bottom: 64px;
+}
+.topic_category{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 56px;
+	
+}
+.topic_category_b{
+	margin: 16px;
+}
+.topic_img{
+	width: 100%;
+	margin-bottom: 32px;
+}
+.topic_img_text_a{
+	width: 100%;
+}
+.opic_img_text_b{
+	margin-bottom: 24px;
+}
+/*bottam
+---------------------*/
+.bottam{
+    align-items: center;
+    margin-top: 56px;
+    margin-bottom: 48px;
+    text-align: center;
+    padding-top: 40px;
+}
+.btn-flat{
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    font-size: 21px;
+	background-color: #ffd61a;
+	color: azure;
+	text-align: center;
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+
+/*アクセスから
+---------------------*/
+#access{
+    width: 100%;
+    background: #f3f3f3;
+    padding: 60px 0;
+    margin: 0 auto;
+}
+#access h4{
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 30px;
+text-align: center;
+}
+
+#access h5 {
+    font-size: 18px;
+    margin-bottom: 60px;
+	text-align: center;
+}
+
+#access iframe {
+    width: 100%;
+    height: 300px;
+}
+.access-title{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.access-name{
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+vertical-align: baseline;
+line-height: 175%;
+margin-bottom: 64px;
+text-align: center;
+font-size: 1.6rem;
+}
+.map{
+	max-width: 100%;
+    padding-bottom: 50PX;
+    position: relative;
+}
+.iframe{
+	position: absolute;
+}
+
+#access.address{
+	padding-top: 60px;
+}
+.adr{
+    display: flex;
+    justify-content: center
+}
+dt{
+	display: block;
+}
+dd{
+	display: block;
+    margin-inline-start: 48px;
+}
+.address{
+    display: flex;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+.adr.school{
+	margin-right: 100px;
+	margin-left: 10px;
+}
+.adr.soffice{
+	margin-right: 100px;
+}
+.adr.telephone{
+	margin-right: 100px;
+}
+.adr.fax{
+	margin-right: 100px;
+}
+.adr.mail{
+	margin-right: 100px;
+}
+/*コンタクトから
+---------------------*/
+.contact{
+	padding: 70px 0 70px;
+}
+.form-wrapper{
+	width: 600px;
+    margin: 0 auto;
+}
+.section-title{
+	font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.con1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+.con2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.con3 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+p {
+    line-height: 175%;
+}
+/*アンケート
+---------------------*/
+.form-inner{
+	display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+.form-title{
+	width: 118px;
+    padding-top: 8px;
+    margin-right: 96px;
+    font-weight: normal;
+    text-align: left;
+}
+.form-title {
+	width: 100px;
+    padding-top: 8px;
+    margin-right: 120px;
+    font-weight: normal;
+    text-align: left;
+}
+.form-item{
+	width: 328px;
+    margin-bottom: 24px;
+}
+.form-parts{
+	box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: solid 1px #bfbfbf
+}
+.form-item3{
+	width: 328px;
+    margin-bottom: 24px;
+
+}
+.form-title check-radio{
+	padding-top: 20px;
+}
+input[type*=radio] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 24px;
+    height: 24px;
+    margin: 0 40px 0 0px;
+    border: solid 1px #f0ebe5;
+    vertical-align: -2px;
+	background-color: #f0ebe5;
+}
+.form-ul li {
+    display: flex;
+    align-items: center;
+}
+.form-parts{
+	box-sizing: border-box;
+	width: 100%;
+	height: 50%;
+    padding: 8px;
+    border: solid 1px #bfbfbf;
+	font-size: 1.6rem;
+	-webkit-appearance: none;
+}
+.btn-submit{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    width: 298px;
+    height: 54px;
+    font-size: 1.8rem;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.btn{
+	margin: auto;
+    background-color: #ffd61a;
+    color: #fff;
+}
